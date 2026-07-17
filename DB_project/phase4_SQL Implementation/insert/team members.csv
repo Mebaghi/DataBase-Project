@@ -1,0 +1,16 @@
+id,team_id,mem_role
+101,1,"Technical Assistant"
+102,1,editor
+103,1,Accountants
+104,1,designer
+105,1,programmer
+201,2,editor
+202,2,"Technical assistant"
+203,2,designer
+205,2,Accountants
+301,1,Accountants
+303,3,Accountants
+304,3,programmer
+404,4,"Technical Assistant"
+405,5,"Technical Assistant"
+406,5,programmer
