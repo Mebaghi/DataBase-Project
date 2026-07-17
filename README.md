@@ -2,9 +2,7 @@
 
 A relational database designed and implemented for a **Project Management System** as part of a university Database course.
 
-The project focuses on database design principles, normalization, SQL programming, and advanced database objects using **MySQL**.
-
----
+The project focuses on relational database design, normalization, and advanced SQL programming using **MySQL**.
 
 ## Features
 
@@ -20,19 +18,15 @@ The project focuses on database design principles, normalization, SQL programmin
 - Triggers
 - CSV data import
 
----
-
 ## Technologies
 
 - MySQL
 - SQL
 - Relational Database Design
 
----
-
 ## Project Structure
 
-```
+```text
 phase4/
 │
 ├── create_table/
@@ -45,73 +39,66 @@ phase4/
 └── README.md
 ```
 
----
-
 ## Database Components
 
 ### Tables
 
-The database schema was designed following relational database principles and includes normalized tables for project management.
+Designed a normalized relational schema for a project management system.
 
 ### ER Diagram
 
-The database structure was modeled using an Entity-Relationship Diagram before implementation.
+Created an Entity-Relationship diagram before implementing the database schema.
 
 ### Normalization
 
-The schema was normalized to reduce redundancy and improve data consistency.
+Applied database normalization principles to minimize redundancy and improve consistency.
 
 ### Views
 
-Custom SQL Views were created to simplify common analytical and reporting queries.
+Implemented SQL Views for simplified data retrieval and reporting.
 
 ### Stored Procedures
 
-Stored Procedures were implemented to encapsulate business logic inside the database.
+Developed Stored Procedures to encapsulate reusable business logic.
 
 ### Functions
 
-User-defined SQL Functions were developed for reusable database operations.
+Implemented SQL Functions for reusable database operations.
 
 ### Triggers
 
-Database Triggers were implemented to automate specific operations after data modifications.
+Created database Triggers to automate specific actions during data modification.
 
 ### Queries
 
-A collection of SQL queries demonstrates different database operations including:
+Implemented SQL queries demonstrating:
 
-- Joins
-- Aggregations
-- Nested Queries
-- Filtering
-- Grouping
-- Ordering
-- Reporting Queries
-
----
+- JOIN operations
+- Aggregate functions
+- Nested queries
+- GROUP BY and HAVING
+- ORDER BY
+- Filtering and reporting
 
 ## Getting Started
 
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/Mebaghi/DataBase-Project.git
 ```
 
-Open the SQL files using your preferred MySQL client (MySQL Workbench, DBeaver, phpMyAdmin, etc.).
+Open the SQL files using MySQL Workbench (or any compatible SQL client).
 
 Execute the scripts in the following order:
 
 1. Create Tables
 2. Insert Data
 3. Views
-4. Procedures
+4. Stored Procedures
 5. Functions
 6. Triggers
 7. Queries
-
----
 
 ## Learning Objectives
 
@@ -121,22 +108,18 @@ This project demonstrates practical experience with:
 - ER Modeling
 - Database Normalization
 - Advanced SQL
+- Views
 - Stored Procedures
 - Functions
 - Triggers
-- Views
-- Query Optimization Concepts
-
----
+- Query Development
 
 ## Course
 
-Database Systems
+**Database Systems**
 
 Iran University of Science and Technology (IUST)
 
----
-
 ## License
 
-This project was developed for educational purposes as part of a university database course.
+This project was developed for educational purposes as part of a university Database Systems course.
